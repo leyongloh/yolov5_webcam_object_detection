@@ -1,4 +1,5 @@
 # Yolov5 Inference on Webcam
+this project utilizes ros2 communication framework (publisher and subscriber) to enable inference of YOLOv5 on webcam.
 
 ## Build Docker images
 
