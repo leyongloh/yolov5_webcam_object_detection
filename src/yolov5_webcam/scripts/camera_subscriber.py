@@ -143,8 +143,12 @@ class Camera_subscriber(Node):
         cv2.imshow("IMAGE", img0)
         cv2.waitKey(4)    
 
-if __name__ == '__main__':
-    rclpy.init(args=None)
+
+def main(args=None):
+    rclpy.init(args=args)
     camera_subscriber = Camera_subscriber()
     rclpy.spin(camera_subscriber)
     rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
