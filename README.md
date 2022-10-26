@@ -21,10 +21,11 @@ docker run -it --net=host --gpus all \
         --env="DISPLAY" \
         --env="QT_X11_NO_MITSHM=1" \
         --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-        --volume="/home/leyong/projects/yolov5_webcam/src/:/persistent_storage:rw" \
+        --volume="/home/leyong/projects/yolov5_webcam_object_detection/src:/persistent_storage:rw" \
         --name yolov5_webcam \
         yolov5_webcam bash
 ```
+please change the volume path "/home/leyong/..." to your respective git repo path.
 
 ## Copy development files
 
