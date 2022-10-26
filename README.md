@@ -64,3 +64,7 @@ run subscriber
 cd src/yolov5_webcam/scripts
 python3 camera_subscriber.py
 ```
+
+## Demo picture
+here is a demo of the screenshot taken to demonstrate the object detection result.
+![plot](./demo.png)
